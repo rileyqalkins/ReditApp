@@ -1,0 +1,6 @@
+framework module Pods_ReditAppTests {
+  umbrella header "Pods-ReditAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

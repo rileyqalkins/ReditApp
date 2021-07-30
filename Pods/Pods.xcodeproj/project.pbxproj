@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		225895E8F09F14E5FF3BD3FCA1A86561 /* PaginatedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349E715F974992D100831EC678AF60CD /* PaginatedTableView.swift */; };
+		48087270E44C427DCBD1948A4BCEEF1F /* Pods-ReditApp-ReditAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69B2C9B153ADD362CAF5FAA29670116D /* Pods-ReditApp-ReditAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52DCF1078B69663D2042CCE62B0FAE38 /* Pods-ReditAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62F183704BB182F841EB8EB24686486B /* Pods-ReditAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B0F6DDBCEF985EF132D47A9DB01C963 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		7B8D16AC5E6F79142853228310911121 /* Pods-ReditAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 039E36BE1EC4498FA94DADD5BFC04BF7 /* Pods-ReditAppTests-dummy.m */; };
+		A1114A564159BDA21B2ED131945DD0BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		AA11FE7204837F4BC1DFBE93D90B3A3B /* Pods-ReditApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3E2BD40B0848AF42AB8FD43664612 /* Pods-ReditApp-dummy.m */; };
+		BDA0D04716588E6CC32FA1EB78BD1B98 /* PaginatedTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80FCF218349A51BF94E2435B5426583C /* PaginatedTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C23E6298F04BE8A039A4F3DC2B175DF3 /* PaginatedTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 712236745222B26DCE767316EB9A64DC /* PaginatedTableView-dummy.m */; };
+		C43B16CDA18E5B5A2271AA2CA9FCB53F /* Pods-ReditApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C210C7EE6A90127167B43A5CABFD43C5 /* Pods-ReditApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7C5380CB6F41251DC1DAB0E691E5FAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		CB04A07D2371FFB4E7EFAF8C87E914C6 /* Pods-ReditApp-ReditAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3E51608FD9009DBA8D852C6F85384C /* Pods-ReditApp-ReditAppUITests-dummy.m */; };
+		CF2F62A011FE239FEB624A07594F0239 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		E1E5D83ABC49A795A3C1B085EA1564D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E5D9FC88D7C247E7740AC0DD8064A6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A489F4A86CC2E5F86E502CB35C2ECDCE;
+			remoteInfo = PaginatedTableView;
+		};
+		796B0CB9B879B668BEC7F35F2EDFF811 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FE905D7F6023A2BA419C64C36956D49;
+			remoteInfo = "Pods-ReditApp";
+		};
+		CE844B7701F7833F134BFAA414551F92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A489F4A86CC2E5F86E502CB35C2ECDCE;
+			remoteInfo = PaginatedTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		039E36BE1EC4498FA94DADD5BFC04BF7 /* Pods-ReditAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReditAppTests-dummy.m"; sourceTree = "<group>"; };
+		14C0B2C3AFA27E77C4804E4E524B61E1 /* Pods-ReditApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReditApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26FB9E3457EC8CCD7E719EDB95E8248D /* Pods-ReditAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReditAppTests.modulemap"; sourceTree = "<group>"; };
+		2AC110D6D6D671446EF19662436A3B5A /* Pods-ReditAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReditAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2FD272D5218D671E0A8DB1E404858F36 /* Pods-ReditApp-ReditAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReditApp-ReditAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		328F7F3DBD797478AA2480D0675CCFFA /* Pods_ReditAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReditAppTests.framework; path = "Pods-ReditAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		349E715F974992D100831EC678AF60CD /* PaginatedTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaginatedTableView.swift; path = PaginatedTableView/Classes/PaginatedTableView.swift; sourceTree = "<group>"; };
+		3B2D91F41A492B786C7EA17CF5770C3E /* Pods-ReditAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReditAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		420AA4AEABE5F0D1B0B535C740789BF5 /* Pods-ReditApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReditApp-Info.plist"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		45412C06975EAD8F243205BA8F3B0053 /* Pods-ReditAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReditAppTests-Info.plist"; sourceTree = "<group>"; };
+		4C601E76D3B942522D3EC9D8685297BD /* Pods-ReditApp-ReditAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReditApp-ReditAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5CB3E2BD40B0848AF42AB8FD43664612 /* Pods-ReditApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReditApp-dummy.m"; sourceTree = "<group>"; };
+		62F183704BB182F841EB8EB24686486B /* Pods-ReditAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReditAppTests-umbrella.h"; sourceTree = "<group>"; };
+		69B2C9B153ADD362CAF5FAA29670116D /* Pods-ReditApp-ReditAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReditApp-ReditAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		6A3E51608FD9009DBA8D852C6F85384C /* Pods-ReditApp-ReditAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReditApp-ReditAppUITests-dummy.m"; sourceTree = "<group>"; };
+		6A5BD3E8B03E066ED4F6C25704F3473A /* PaginatedTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PaginatedTableView.xcconfig; sourceTree = "<group>"; };
+		712236745222B26DCE767316EB9A64DC /* PaginatedTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PaginatedTableView-dummy.m"; sourceTree = "<group>"; };
+		80FCF218349A51BF94E2435B5426583C /* PaginatedTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaginatedTableView-umbrella.h"; sourceTree = "<group>"; };
+		8207B41B59343D9611048CE96E7D5FED /* PaginatedTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PaginatedTableView.framework; path = PaginatedTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		896EF2B8C786A5467B824B325F9697CC /* Pods-ReditApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReditApp.release.xcconfig"; sourceTree = "<group>"; };
+		92DC62639243BE37C6536B8299CA384A /* Pods-ReditApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReditApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9688B60DA9C1BAF6888084D0CCB330CB /* Pods-ReditAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReditAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0284BC9D7B24D834350DA55CAA3F621 /* Pods-ReditAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReditAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF37F116816BEBB45D5DC301F03395D6 /* Pods-ReditApp-ReditAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReditApp-ReditAppUITests-Info.plist"; sourceTree = "<group>"; };
+		AFBEDDF4CFC1DE8F6ACD73AB25330F0B /* PaginatedTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaginatedTableView-prefix.pch"; sourceTree = "<group>"; };
+		BF956C3B411005776E2E6ACF23E0B007 /* Pods-ReditApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReditApp-frameworks.sh"; sourceTree = "<group>"; };
+		C210C7EE6A90127167B43A5CABFD43C5 /* Pods-ReditApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReditApp-umbrella.h"; sourceTree = "<group>"; };
+		C841BBFC312019E2F8A19B5A07850225 /* Pods-ReditApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReditApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		D21447F321878AEFA2B0795609FAC9E2 /* Pods_ReditApp_ReditAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReditApp_ReditAppUITests.framework; path = "Pods-ReditApp-ReditAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FBFF54211C995426D753AA89D0C7B2 /* PaginatedTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PaginatedTableView-Info.plist"; sourceTree = "<group>"; };
+		D68E2AA4AAD0CF05416949097552A3E3 /* Pods-ReditApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReditApp.modulemap"; sourceTree = "<group>"; };
+		D9EC95A5D70D1ACF3C711ADA6C94F53D /* Pods-ReditApp-ReditAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReditApp-ReditAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E140BAC683C74664EFA4EB3DD7632023 /* Pods_ReditApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReditApp.framework; path = "Pods-ReditApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F3A152C9A2369AD0A898ABD7FC6240 /* Pods-ReditApp-ReditAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReditApp-ReditAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E62773DDA05F149EE7B81776D10C55E6 /* Pods-ReditApp-ReditAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReditApp-ReditAppUITests.modulemap"; sourceTree = "<group>"; };
+		ECFF66EFCBBB2E340E6BD252257734EF /* PaginatedTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PaginatedTableView.modulemap; sourceTree = "<group>"; };
+		FCCAB88D087C81986F8BB5610AFAF5FB /* Pods-ReditApp-ReditAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReditApp-ReditAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74DC0D9B7E0ED1F44C4E1E40F94D0942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1114A564159BDA21B2ED131945DD0BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9822613A87FC1A7904C2F33E3092DB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E5D83ABC49A795A3C1B085EA1564D8 /* Foundation.framework in Frameworks */,
+				CF2F62A011FE239FEB624A07594F0239 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC337B1C65E1F34F2F0920983D54F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0F6DDBCEF985EF132D47A9DB01C963 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58AB122275D0DEAA8B33C841A58B31F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C5380CB6F41251DC1DAB0E691E5FAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19EBBCD795DFE601C5BE54746B882A99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8207B41B59343D9611048CE96E7D5FED /* PaginatedTableView.framework */,
+				E140BAC683C74664EFA4EB3DD7632023 /* Pods_ReditApp.framework */,
+				D21447F321878AEFA2B0795609FAC9E2 /* Pods_ReditApp_ReditAppUITests.framework */,
+				328F7F3DBD797478AA2480D0675CCFFA /* Pods_ReditAppTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5089C1F46C0090AF5CB6B845D63E32D2 /* Pods-ReditAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				26FB9E3457EC8CCD7E719EDB95E8248D /* Pods-ReditAppTests.modulemap */,
+				A0284BC9D7B24D834350DA55CAA3F621 /* Pods-ReditAppTests-acknowledgements.markdown */,
+				2AC110D6D6D671446EF19662436A3B5A /* Pods-ReditAppTests-acknowledgements.plist */,
+				039E36BE1EC4498FA94DADD5BFC04BF7 /* Pods-ReditAppTests-dummy.m */,
+				45412C06975EAD8F243205BA8F3B0053 /* Pods-ReditAppTests-Info.plist */,
+				62F183704BB182F841EB8EB24686486B /* Pods-ReditAppTests-umbrella.h */,
+				9688B60DA9C1BAF6888084D0CCB330CB /* Pods-ReditAppTests.debug.xcconfig */,
+				3B2D91F41A492B786C7EA17CF5770C3E /* Pods-ReditAppTests.release.xcconfig */,
+			);
+			name = "Pods-ReditAppTests";
+			path = "Target Support Files/Pods-ReditAppTests";
+			sourceTree = "<group>";
+		};
+		563001F11DD0DAB8E24B1694819C0BA1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECFF66EFCBBB2E340E6BD252257734EF /* PaginatedTableView.modulemap */,
+				6A5BD3E8B03E066ED4F6C25704F3473A /* PaginatedTableView.xcconfig */,
+				712236745222B26DCE767316EB9A64DC /* PaginatedTableView-dummy.m */,
+				D3FBFF54211C995426D753AA89D0C7B2 /* PaginatedTableView-Info.plist */,
+				AFBEDDF4CFC1DE8F6ACD73AB25330F0B /* PaginatedTableView-prefix.pch */,
+				80FCF218349A51BF94E2435B5426583C /* PaginatedTableView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PaginatedTableView";
+			sourceTree = "<group>";
+		};
+		5954A098EF154140FA95BF4763535569 /* Pods-ReditApp */ = {
+			isa = PBXGroup;
+			children = (
+				D68E2AA4AAD0CF05416949097552A3E3 /* Pods-ReditApp.modulemap */,
+				14C0B2C3AFA27E77C4804E4E524B61E1 /* Pods-ReditApp-acknowledgements.markdown */,
+				C841BBFC312019E2F8A19B5A07850225 /* Pods-ReditApp-acknowledgements.plist */,
+				5CB3E2BD40B0848AF42AB8FD43664612 /* Pods-ReditApp-dummy.m */,
+				BF956C3B411005776E2E6ACF23E0B007 /* Pods-ReditApp-frameworks.sh */,
+				420AA4AEABE5F0D1B0B535C740789BF5 /* Pods-ReditApp-Info.plist */,
+				C210C7EE6A90127167B43A5CABFD43C5 /* Pods-ReditApp-umbrella.h */,
+				92DC62639243BE37C6536B8299CA384A /* Pods-ReditApp.debug.xcconfig */,
+				896EF2B8C786A5467B824B325F9697CC /* Pods-ReditApp.release.xcconfig */,
+			);
+			name = "Pods-ReditApp";
+			path = "Target Support Files/Pods-ReditApp";
+			sourceTree = "<group>";
+		};
+		6C7D96DB1AC11225260F13222485F59A /* PaginatedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				349E715F974992D100831EC678AF60CD /* PaginatedTableView.swift */,
+				563001F11DD0DAB8E24B1694819C0BA1 /* Support Files */,
+			);
+			name = PaginatedTableView;
+			path = PaginatedTableView;
+			sourceTree = "<group>";
+		};
+		78CFE5302A6E3F9FA58658197892E43A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5954A098EF154140FA95BF4763535569 /* Pods-ReditApp */,
+				9276C80227F32E921D2D27E6C2351F0D /* Pods-ReditApp-ReditAppUITests */,
+				5089C1F46C0090AF5CB6B845D63E32D2 /* Pods-ReditAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9276C80227F32E921D2D27E6C2351F0D /* Pods-ReditApp-ReditAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E62773DDA05F149EE7B81776D10C55E6 /* Pods-ReditApp-ReditAppUITests.modulemap */,
+				2FD272D5218D671E0A8DB1E404858F36 /* Pods-ReditApp-ReditAppUITests-acknowledgements.markdown */,
+				FCCAB88D087C81986F8BB5610AFAF5FB /* Pods-ReditApp-ReditAppUITests-acknowledgements.plist */,
+				6A3E51608FD9009DBA8D852C6F85384C /* Pods-ReditApp-ReditAppUITests-dummy.m */,
+				4C601E76D3B942522D3EC9D8685297BD /* Pods-ReditApp-ReditAppUITests-frameworks.sh */,
+				AF37F116816BEBB45D5DC301F03395D6 /* Pods-ReditApp-ReditAppUITests-Info.plist */,
+				69B2C9B153ADD362CAF5FAA29670116D /* Pods-ReditApp-ReditAppUITests-umbrella.h */,
+				D9EC95A5D70D1ACF3C711ADA6C94F53D /* Pods-ReditApp-ReditAppUITests.debug.xcconfig */,
+				E2F3A152C9A2369AD0A898ABD7FC6240 /* Pods-ReditApp-ReditAppUITests.release.xcconfig */,
+			);
+			name = "Pods-ReditApp-ReditAppUITests";
+			path = "Target Support Files/Pods-ReditApp-ReditAppUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				F1667CFEE08FE6932DC4881B5F22E448 /* Pods */,
+				19EBBCD795DFE601C5BE54746B882A99 /* Products */,
+				78CFE5302A6E3F9FA58658197892E43A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F1667CFEE08FE6932DC4881B5F22E448 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C7D96DB1AC11225260F13222485F59A /* PaginatedTableView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		578F2B42014F6702B39C80FF880619B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DCF1078B69663D2042CCE62B0FAE38 /* Pods-ReditAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5878DE8A2156734426932AA739BDFA09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA0D04716588E6CC32FA1EB78BD1B98 /* PaginatedTableView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63F2E6A22B6FECBB2A7DBC247C58941 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43B16CDA18E5B5A2271AA2CA9FCB53F /* Pods-ReditApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3386779DFDD164A1F6D1C718F0E8188 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48087270E44C427DCBD1948A4BCEEF1F /* Pods-ReditApp-ReditAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8FE905D7F6023A2BA419C64C36956D49 /* Pods-ReditApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE7E75159386B3690A91051DC3DE374D /* Build configuration list for PBXNativeTarget "Pods-ReditApp" */;
+			buildPhases = (
+				D63F2E6A22B6FECBB2A7DBC247C58941 /* Headers */,
+				8C4A443BE97A37D61F01A8ADDAC4AF82 /* Sources */,
+				9CC337B1C65E1F34F2F0920983D54F84 /* Frameworks */,
+				BD8E97DCF5D87B877A468421BAE6831D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2CE13B34AFAEB57B45AD08BD5AADDF3 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReditApp";
+			productName = "Pods-ReditApp";
+			productReference = E140BAC683C74664EFA4EB3DD7632023 /* Pods_ReditApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A489F4A86CC2E5F86E502CB35C2ECDCE /* PaginatedTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F068BC923E9245106C26617B682310 /* Build configuration list for PBXNativeTarget "PaginatedTableView" */;
+			buildPhases = (
+				5878DE8A2156734426932AA739BDFA09 /* Headers */,
+				0948095E6E416F94D862EFE607D31FA6 /* Sources */,
+				9822613A87FC1A7904C2F33E3092DB3A /* Frameworks */,
+				F0FC12F2C190C557F92A7D40291C3018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaginatedTableView;
+			productName = PaginatedTableView;
+			productReference = 8207B41B59343D9611048CE96E7D5FED /* PaginatedTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE7CC9FBFB38E873F1C47E8C29CF737A /* Pods-ReditAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E20ED2AB9D2CFCA8444483E84591456 /* Build configuration list for PBXNativeTarget "Pods-ReditAppTests" */;
+			buildPhases = (
+				578F2B42014F6702B39C80FF880619B6 /* Headers */,
+				05746435284E91F78C9F46A99B0E29C4 /* Sources */,
+				74DC0D9B7E0ED1F44C4E1E40F94D0942 /* Frameworks */,
+				4A31188DAC39EC67AD710BA04DADA9F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47DDFCE16B867E1D245F28A53F45D91E /* PBXTargetDependency */,
+			);
+			name = "Pods-ReditAppTests";
+			productName = "Pods-ReditAppTests";
+			productReference = 328F7F3DBD797478AA2480D0675CCFFA /* Pods_ReditAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E371983778E52AEE52554480C205B59D /* Pods-ReditApp-ReditAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0E1A73F33667C305B9584E86561F12 /* Build configuration list for PBXNativeTarget "Pods-ReditApp-ReditAppUITests" */;
+			buildPhases = (
+				E3386779DFDD164A1F6D1C718F0E8188 /* Headers */,
+				BA361B97ACE35E0A6C7CB52D8A8F53AE /* Sources */,
+				D58AB122275D0DEAA8B33C841A58B31F /* Frameworks */,
+				7B185E78454BA4E5B623CBD1C6766504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				291D8B307DA26804A305F82ECDEB0BD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReditApp-ReditAppUITests";
+			productName = "Pods-ReditApp-ReditAppUITests";
+			productReference = D21447F321878AEFA2B0795609FAC9E2 /* Pods_ReditApp_ReditAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 19EBBCD795DFE601C5BE54746B882A99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A489F4A86CC2E5F86E502CB35C2ECDCE /* PaginatedTableView */,
+				8FE905D7F6023A2BA419C64C36956D49 /* Pods-ReditApp */,
+				E371983778E52AEE52554480C205B59D /* Pods-ReditApp-ReditAppUITests */,
+				DE7CC9FBFB38E873F1C47E8C29CF737A /* Pods-ReditAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A31188DAC39EC67AD710BA04DADA9F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B185E78454BA4E5B623CBD1C6766504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8E97DCF5D87B877A468421BAE6831D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FC12F2C190C557F92A7D40291C3018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05746435284E91F78C9F46A99B0E29C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8D16AC5E6F79142853228310911121 /* Pods-ReditAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0948095E6E416F94D862EFE607D31FA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23E6298F04BE8A039A4F3DC2B175DF3 /* PaginatedTableView-dummy.m in Sources */,
+				225895E8F09F14E5FF3BD3FCA1A86561 /* PaginatedTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4A443BE97A37D61F01A8ADDAC4AF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA11FE7204837F4BC1DFBE93D90B3A3B /* Pods-ReditApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA361B97ACE35E0A6C7CB52D8A8F53AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB04A07D2371FFB4E7EFAF8C87E914C6 /* Pods-ReditApp-ReditAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		291D8B307DA26804A305F82ECDEB0BD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PaginatedTableView;
+			target = A489F4A86CC2E5F86E502CB35C2ECDCE /* PaginatedTableView */;
+			targetProxy = 5E5D9FC88D7C247E7740AC0DD8064A6D /* PBXContainerItemProxy */;
+		};
+		47DDFCE16B867E1D245F28A53F45D91E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ReditApp";
+			target = 8FE905D7F6023A2BA419C64C36956D49 /* Pods-ReditApp */;
+			targetProxy = 796B0CB9B879B668BEC7F35F2EDFF811 /* PBXContainerItemProxy */;
+		};
+		D2CE13B34AFAEB57B45AD08BD5AADDF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PaginatedTableView;
+			target = A489F4A86CC2E5F86E502CB35C2ECDCE /* PaginatedTableView */;
+			targetProxy = CE844B7701F7833F134BFAA414551F92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08C81489594D92069957EBCCB014F681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9EC95A5D70D1ACF3C711ADA6C94F53D /* Pods-ReditApp-ReditAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReditApp-ReditAppUITests/Pods-ReditApp-ReditAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReditApp-ReditAppUITests/Pods-ReditApp-ReditAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		096F0AE8008F578669C73A749A243066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92DC62639243BE37C6536B8299CA384A /* Pods-ReditApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReditApp/Pods-ReditApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReditApp/Pods-ReditApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		133B0D302C776A1ABF94F00C218AEAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9688B60DA9C1BAF6888084D0CCB330CB /* Pods-ReditAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReditAppTests/Pods-ReditAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReditAppTests/Pods-ReditAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C5CA8637FCD0CB83FE36115767BD706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5BD3E8B03E066ED4F6C25704F3473A /* PaginatedTableView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PaginatedTableView/PaginatedTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PaginatedTableView/PaginatedTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PaginatedTableView/PaginatedTableView.modulemap";
+				PRODUCT_MODULE_NAME = PaginatedTableView;
+				PRODUCT_NAME = PaginatedTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D3806C1B223CCA074CCD89B23E12F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5BD3E8B03E066ED4F6C25704F3473A /* PaginatedTableView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PaginatedTableView/PaginatedTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PaginatedTableView/PaginatedTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PaginatedTableView/PaginatedTableView.modulemap";
+				PRODUCT_MODULE_NAME = PaginatedTableView;
+				PRODUCT_NAME = PaginatedTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D3D0F765BA866A050D10CA087FA6084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B2D91F41A492B786C7EA17CF5770C3E /* Pods-ReditAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReditAppTests/Pods-ReditAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReditAppTests/Pods-ReditAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B64BD6B12F1CACB199BAA917AC3A6EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2F3A152C9A2369AD0A898ABD7FC6240 /* Pods-ReditApp-ReditAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReditApp-ReditAppUITests/Pods-ReditApp-ReditAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReditApp-ReditAppUITests/Pods-ReditApp-ReditAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF9C58FC8A3B1190543562329AC2F0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 896EF2B8C786A5467B824B325F9697CC /* Pods-ReditApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReditApp/Pods-ReditApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReditApp/Pods-ReditApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26F068BC923E9245106C26617B682310 /* Build configuration list for PBXNativeTarget "PaginatedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5CA8637FCD0CB83FE36115767BD706 /* Debug */,
+				5D3806C1B223CCA074CCD89B23E12F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E0E1A73F33667C305B9584E86561F12 /* Build configuration list for PBXNativeTarget "Pods-ReditApp-ReditAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C81489594D92069957EBCCB014F681 /* Debug */,
+				B64BD6B12F1CACB199BAA917AC3A6EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E20ED2AB9D2CFCA8444483E84591456 /* Build configuration list for PBXNativeTarget "Pods-ReditAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133B0D302C776A1ABF94F00C218AEAB7 /* Debug */,
+				5D3D0F765BA866A050D10CA087FA6084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7E75159386B3690A91051DC3DE374D /* Build configuration list for PBXNativeTarget "Pods-ReditApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096F0AE8008F578669C73A749A243066 /* Debug */,
+				CF9C58FC8A3B1190543562329AC2F0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
